@@ -1,22 +1,21 @@
 package com.vish.springmongodb.Contoller;
 
-import com.vish.SpringMongo.Model.Users;
-import com.vish.SpringMongo.Service.UserService;
+
+import com.vish.springmongodb.Model.Users;
+import com.vish.springmongodb.Service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("api/v1/users")
+@CrossOrigin
 public class UserController {
    @Autowired
    private UserService userService;
 
    @PostMapping(value = "/userSave")
     public String save(@RequestBody Users user) {
-       System.out.println("pissu hutti");
-        return "Badu awoooooooo";
+       System.out.println("Badu awooooooooooo");
+       return userService.save(user);
     }
 }

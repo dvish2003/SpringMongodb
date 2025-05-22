@@ -1,7 +1,8 @@
 package com.vish.springmongodb.Service;
 
-import com.vish.SpringMongo.Model.Users;
-import com.vish.SpringMongo.Repo.UserRepo;
+
+import com.vish.springmongodb.Model.Users;
+import com.vish.springmongodb.Repo.UserRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
