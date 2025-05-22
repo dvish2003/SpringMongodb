@@ -1,4 +1,26 @@
-# MongoDB Shell Cheat Sheet for Beginners
+
+# 🚀 Full-Stack Starter with React, Spring Boot & MongoDB
+
+<div align="center">
+  <a href="https://reactjs.org/">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="100" height="100" alt="React" style="animation: float 3s ease-in-out infinite"/>
+  </a>
+  <a href="https://spring.io/">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" width="100" height="100" alt="Spring Boot" style="animation: float 3s ease-in-out infinite; animation-delay: 0.5s"/>
+  </a>
+  <a href="https://www.mongodb.com/">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" width="100" height="100" alt="MongoDB" style="animation: float 3s ease-in-out infinite; animation-delay: 1s"/>
+  </a>
+</div>
+
+
+## 📌 Tech Stack
+
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+
 
 Essential MongoDB shell commands to get started quickly.
 
